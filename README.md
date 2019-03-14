@@ -8,6 +8,8 @@ Not working on - <Logging, Easier Management, WinApp Layout>
 Simple Discord Bot I'm making in my spare time and any downtime I have at work. Currently it's just me,
 a 17y/o total noob at coding who works on it, and I'd love recommendations and features to add, and maybe a bit of help adding them.
 
+DISCLAIMER; I'm not good at coding, many parts are ripped and merged from other projects and other peoples "solutions"
+
 And for a last time; plastering this sign, because it's important.
 
 |---------- WARNING ----------|
