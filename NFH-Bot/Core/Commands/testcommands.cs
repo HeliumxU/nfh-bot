@@ -69,8 +69,8 @@ namespace NFH_Bot.Core.Commands
         //*----------------------------------------------------------------------------------------------------*\\
 
 
-        [Command("Timetest"), Alias("timetest", "Time", "time"), Summary("What is the time?")]
-        public async Task Timefag()
+        [Command("Timetest"), Alias("timetest", "Time", "time"), Summary("What is the time?")] // Helpful for OoS setups that cause artifacting
+        public async Task Timetester()
 
         {
             await Context.Channel.SendMessageAsync("The time is: " + DateTime.Now);
@@ -150,15 +150,15 @@ namespace NFH_Bot.Core.Commands
         }
         //*----------------------------------------------------------------------------------------------------*\\
 
-        [Command("ocr"), Alias("OCR", "TTI", "tti"), Summary("I/O Image to Text")]
-        public async Task Imgfixer()
-
-        {
-            AutoOcr OCR = new AutoOcr() { ReadBarCodes = false };
-            var Results = OCR.Read("img/screenshot.png");
-            await Context.Channel.SendMessageAsync(Results.Text + "");
-        }
-
+  //      [Command("ocr"), Alias("OCR", "TTI", "tti"), Summary("I/O Image to Text")]
+    //    public async Task Imgfixer()
+    //
+     //   {
+      //      AutoOcr OCR = new AutoOcr() { ReadBarCodes = false };
+      //      var Results = OCR.Read(@"c:\botDL\image.png");
+      //      await Context.Channel.SendMessageAsync(Results.Text + "");
+     //   }
+     //
         //*----------------------------------------------------------------------------------------------------*\\
     }
 }
