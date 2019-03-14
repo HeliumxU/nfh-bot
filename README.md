@@ -10,11 +10,11 @@ a 17y/o total noob at coding who works on it, and I'd love recommendations and f
 
 And for a last time; plastering this sign, because it's important.
 
-|---------- WARNING ----------| \n
-|                             | \n
-| Do Not Read This Code.      | \n
-| It Will Be Painful To Read. | \n 
-| You May Want To Die.        | \n
-| It Is Awful.                | \n
-|                             | \n
-|---------- WARNING ----------| \n
+|---------- WARNING ----------|
+|                             |
+| Do Not Read This Code.      |
+| It Will Be Painful To Read. |
+| You May Want To Die.        |
+| It Is Awful.                |
+|                             |
+|---------- WARNING ----------|
